@@ -1,0 +1,40 @@
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-header button {
+  background-color: #548052;
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+  width: 96px;
+  border: none;
+  cursor: pointer;
+}
+.articles li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 4px;
+}
+.articles .actions {
+  display: flex;
+  gap: 8px;
+}
+.articles .actions button {
+  background-color: #548052;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.articles li:nth-child(2n) {
+  background: #e3e6e3;
+}
+.Artiklar{
+  font-family: Arial 23px;
+}
